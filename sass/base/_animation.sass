@@ -1,0 +1,52 @@
+@keyframes baloonMove
+    0%
+        opacity: 0
+        transform: translate(0rem, 0rem)
+    20%
+        transform: translate(-4rem, -4rem)
+        opacity: 0.2
+    40%
+        transform: translate(0rem, -5rem)
+        opacity: 1
+
+    60%    
+        transform: translate(4rem, -3rem)
+        opacity: .5
+    80%
+        transform: translate(0rem, -3rem) 
+        opacity: 1
+    100%
+        transform: translateX(0rem, 0rem) 
+        opacity: 0
+        
+@keyframes buttonToTop
+    0%
+        opacity: 0
+        transform: translateY(10rem)
+    100%
+        opacity: 1
+        transform: translateY(0)
+
+@keyframes leftToRight
+    0%
+        opacity: 0
+        transform: translateX(-10rem)
+
+    80%
+        transform: translateX(+1rem) 
+        
+    100%
+        opacity: 1
+        transform: translateX(0rem) 
+        
+@keyframes rightToLeft
+    0%
+        opacity: 0
+        transform: translateX(10rem)
+
+    80%
+        transform: translateX(-1rem) 
+        
+    100%
+        opacity: 1
+        transform: translateX(0rem) 
